@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Shojumaru&display=swap');
+
+:root{
+	--color-general:#999;
+	--color-titulos:#29373c;
+	--color-gris:#f9faf2;
+	--color-footer:#f49f28;
+
+}
+
+body{
+	font-family: "Nanum Pen Script", serif;
+	font-size: 16px;
+	color: var(--color-gris);
+}
+
+header{
+	position: absolute;
+	width: 100%;
+	padding-top: 20px;
+}
+
+.sticky{
+	position: fixed;
+	background: linear-gradient(90deg, rgba(0,8,12,1) 28%, rgba(26,49,78,1) 85%);
+	padding-top: 0;
+	z-index: 100;
+}
+header .navbar-brand{
+	color: white !important;
+	font-size: 20px;
+	font-family: "Shojumaru", serif;
+}
+
+header a{
+	color: #fff;
+	font-size: 22px !important;
+}
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+}
+
+#hero{
+	background-image: url("../img/bg-hero.png");
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	padding: 10% 0;
+	text-align: center;
+}
+
+#hero h1{
+	color: var(--color-footer);
+	font-family: "Shojumaru", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 60px;
+	padding: 7% 0 0 0;
+}
+
+#hero h3{
+	font-size: 35px;
+	font-weight: 550;
+	color: white;
+	padding-top: 1%;
+}
+
+#hero u{
+	color: var(--color-footer);
+}
+
+.btn-shop{
+	background-color: var(--color-footer);
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 22px;
+	padding: 3px 12px;
+	box-shadow: 0px 0px 30px 5px var(--color-titulos);
+	margin-top: 3%;
+	
+}
+
+.btn-shop:hover{
+	background-color: var(--color-titulos);
+	
+}
+
+/*---------------------------------*/
+
+
+.section{
+	padding: 8% 0 0 0;
+}
+
+.titulo{
+	font-size: 50px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.titulos-centrado{
+	text-align: center;
+/*	margin: 0% 25%;
+	margin-bottom: 60px;*/
+	width: 50%;
+	margin: auto;
+	color: var(--color-titulos);
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.card-icons{
+	text-align: center;
+	border: 0;
+	background-color: transparent;
+	color: var(--color-titulos);
+	padding: 40px 30px;
+	transition: all 0.2s ease-in-out;
+	font-family: "Nanum Pen Script", serif;
+}
+
+.card-icons p{
+	color: var(--color-general);
+	font-size: 20px;
+	font-family: "Nanum Pen Script", serif;
+}
+.icon-circle{
+	width: 100px;
+	height: 90px;
+	line-height: 60px;
+	text-align: center;
+	color: var(--color-titulos);
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.card-icons h3{
+	font-size: 25px;
+	font-weight: 500;
+	font-family: "Nanum Pen Script", serif;
+}
+
+/*-------------------------------------------*/
+
+#faq{
+	background-color: var(--color-gris);
+}
+#faq p{
+	color: var(--color-general);
+	font-size: 21px;
+	font-weight: 500;
+}
+
+#faq h2{
+	font-size: 50px;
+	font-weight: 500;
+}
+
+#faq h3{
+	font-size: 30px;
+}
+
+#faq .btn-shop{
+	background-color: var(--color-titulos);
+	color: #fff;
+	font-weight: 500;
+	font-size: 22px;
+	padding: 3px 12px;
+	margin-top: 6%;
+	
+}
+
+#faq .btn-shop:hover{
+	background-color: transparent;
+	color: black;
+	
+}
+
+#faq .btn-shop .fa-solid{
+	font-weight: 200;
+	padding-left: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+
+#faq .code p{
+	text-align: center;
+	margin-top: 3%;
+	font-size: 22px;
+	color: var(--color-titulos);
+	font-weight: 500;
+}
+
+#faq .code u{
+	font-weight: 600;
+}
+
+/*---------------------------------------------------*/
+
+#services .pumps{
+	width: 90px;
+	height: 90px;
+	line-height: 200px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+#services .info{
+	padding: 8% 20%;
+	text-align: center;
+	color: var(--color-general);
+}
+
+#services .info h2{
+	font-size: 40px;
+}
+
+#services .info p{
+	font-size: 20px;
+	text-align: justify center;
+}
+#services .info h4{
+	font-size: 20px;
+}
+
+/*----------------------------------------------------*/
+
+footer img{
+	width: 500px;
+	height: 500px;
+	line-height: 200px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 20px;
+	padding: 10% 0;
+}
+
+footer p{
+	color: var(--color-titulos);
+	font-size: 20px;
+	text-align: center;
+	font-weight: 500;
+}
+
+footer{
+	background-color: var(--color-footer);
+}
